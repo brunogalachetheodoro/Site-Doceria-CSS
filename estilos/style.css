@@ -59,6 +59,7 @@ nav {
 
 header {
     height: 500px;
+    box-shadow: 2px 2px 10px black;
 }
 
 header > img {
@@ -263,6 +264,10 @@ section {
 
 /*Formulário*/
 
+#sessao-contato {
+    padding-bottom: 30px;
+}
+
 #form-contato {
     width: 500px;
 }
@@ -286,4 +291,24 @@ section {
 
 #form-contato ::placeholder {
     color: #2790C6;
+}
+
+#form-contato input[type=submit] {
+    margin-left: 0;
+    font-size: 16px;
+    width: 180px;
+}
+
+/*footer*/
+
+footer {
+    height: 50px;
+    padding-top: 30px;
+    color: white;
+    background-color: #006599;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
 }
